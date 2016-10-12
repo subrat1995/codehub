@@ -17,7 +17,7 @@
                     </ul>
                 </li>
                 <!-- <li><a href="blog.html">Blog</a></li> -->
-                <li><a href="team.html">Team</a></li>
+                <!-- <li><a href="team.html">Team</a></li> -->
                 <!-- <li>
                     <a href="#">Pages</a>
                     <ul>
