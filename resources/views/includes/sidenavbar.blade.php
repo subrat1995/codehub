@@ -16,9 +16,9 @@
                         <li><a href="{{route('pastevents')}}">Past</a></li>
                     </ul>
                 </li>
-                <li><a href="blog.html">Blog</a></li>
+                <!-- <li><a href="blog.html">Blog</a></li> -->
                 <li><a href="team.html">Team</a></li>
-                <li>
+                <!-- <li>
                     <a href="#">Pages</a>
                     <ul>
                         <li><a href="404.html">404 page</a></li>
@@ -26,8 +26,8 @@
                         <li><a href="grid.html">Grid System</a></li>
                         <li><a href="blog-single.html">Single Post</a></li>
                     </ul>
-                </li>
-                <li><a href="contact.html">Contact</a></li>
+                </li> -->
+                <!-- <li><a href="contact.html">Contact</a></li> -->
             </ul>
         </nav>
 
@@ -35,7 +35,7 @@
 
                 <!-- Copyright -->
     <footer>
-        <p class="copyright">© Copyright 2014 Rayleigh</p>
+        <p class="copyright">© Copyright 2016 Codehub</p>
     </footer>
 
 </div>
