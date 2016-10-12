@@ -1587,3 +1587,13 @@ iframe {
     width: 8.33333333%;
   }
 }
+
+
+a.morelink {
+  text-decoration:none;
+  outline: none;
+}
+.morecontent span {
+  display: none;
+
+}
