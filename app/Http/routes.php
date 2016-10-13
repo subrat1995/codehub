@@ -35,6 +35,22 @@ Route::group(['middlewareGroups' => 'web'],function(){
 	Route::get('/current-events', function(){
 		return view('current');
 	})->name('currentevents');
+
+	Route::get('/event/the-lost-symbols', function(){
+		return view('events.thelostsymbol');
+	})->name('thelostsymbol');
+
+	Route::get('/event/the-lost-symbols/about', function(){
+		return view('events.thelostsymbolabout');
+	})->name('thelostdescription');
+
+	Route::get('/event/the-lost-symbols/sign', function(){
+		return view('events.thelostsymbolsign');
+	})->name('thelostsign');
+
+	
+
+
 });
 
 

@@ -55,10 +55,10 @@
         <!-- Portfolio description -->
         <div class="portfolio-description">
             <h3>The Lost Symbol</h3>
-            <p class="more">The police has hired detectives to find out how the magicians who claim themselves as, have been robbing different branches of bank and claim that they are helping the poor people. But police has found out only a mere portion of money robbed from these banks is being distributed to the poor. The detectives claimed that these magicians are not only the persons who are involved in this robbing but some other people who all are exchanging messages among themselves and thereby helping them to execute their plans of robbing the bank. But those communications are being done by hiding the messages in some form and they need to decipher those as soon as possible before it gets too late to save the government from facing the economic crisis. So the detectives are seeking the help of people who can think out of the box, who can find what they want us not to find and use their common sense which is not so common in a way that helps them stopping the robbery of the next target bank. Don’t think, trust your instinct and help them rather than just hoping.</p>
+            <p align="justify" class="more">The police has hired detectives to find out how the magicians who claim themselves as, have been robbing different branches of bank and claim that they are helping the poor people. But police has found out only a mere portion of money robbed from these banks is being distributed to the poor. The detectives claimed that these magicians are not only the persons who are involved in this robbing but some other people who all are exchanging messages among themselves and thereby helping them to execute their plans of robbing the bank. But those communications are being done by hiding the messages in some form and they need to decipher those as soon as possible before it gets too late to save the government from facing the economic crisis. So the detectives are seeking the help of people who can think out of the box, who can find what they want us not to find and use their common sense which is not so common in a way that helps them stopping the robbery of the next target bank. Don’t think, trust your instinct and help them rather than just hoping.</p>
             <div class="icon-text">
                 <i class="fa fa-calendar-o"></i>
-                <p>Innovision 2016</p>
+                <p><a href="http://innovision.nitrkl.ac.in">Innovision 2016</a></p>
             </div>
             <!-- <div class="icon-text">
                 <i class="fa fa-users"></i>
@@ -73,7 +73,7 @@
 
             <div class="icon-text">
                 <i class="fa fa-thumb-tack"></i>
-                <p><a href="#">Stay tuned</a></p>
+                <p><a href="{{route('thelostsymbol')}}">Stay tuned</a></p>
             </div>
         </div>
 

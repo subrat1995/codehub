@@ -23,9 +23,11 @@
         <link rel="stylesheet" href="{{ URL::to('css/reset.css') }}">
         <link rel="stylesheet" href="{{ URL::to('css/bootstrap.min.css') }}">
         <link rel="stylesheet" href="{{ URL::to('css/font-awesome.min.css') }}">
+        
         <link href="http://fonts.googleapis.com/css?family=Raleway:300|Muli:300" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="{{ URL::to('css/idangerous.swiper.css') }}">
         <link rel="stylesheet" href="{{ URL::to('css/style.css') }}">
+        
 
     </head>
 
@@ -51,16 +53,17 @@
             </header>
 
             <!-- Fullscreen slider navigation arrows -->
-            <!-- <nav id="nav-arrows">
-                <a href="#" class="nav-left hidden"></a>
-                <a href="#" class="nav-right"></a>
-            </nav> -->
+            <nav id="nav-arrows">
+               
+                
+                
+            </nav>
             <!-- Portfolio close button -->
             <a href="#" id="portfolio-close"></a>
 
         </div>
         @yield('body')
-        @include('includes.sidenavbar')
+        @include('events.includes.sidenavbar')
 
         <!-- JavaScripts -->
         <script type='text/javascript' src="{{ URL::to('js/jquery.min.js') }}"></script>
@@ -69,6 +72,7 @@
         <script type='text/javascript' src="{{ URL::to('js/masonry/masonry.pkgd.min.js') }}"></script>
         <script type='text/javascript' src="{{ URL::to('js/isotope/jquery.isotope.min.js') }}") }}"></script>
         <script type='text/javascript' src="{{ URL::to('js/custom.js') }}"></script>
+        <script type='text/javascript' src="{{ URL::to('js/crypt.js') }}"></script>
 
     </body>
 
