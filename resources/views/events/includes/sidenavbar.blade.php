@@ -9,7 +9,7 @@
                 <li><a href="{{route('home')}}">Home</a></li>
                 <li><a href="{{route('thelostsymbol')}}">Event Home</a></li>
                 <li><a href="{{route('thelostdescription')}}">Description</a></li>
-                <li><a href="#" class="active">Login/Sign Up</a></li>
+                <li><a href="{{route('thelostsign')}}" class="active">Login/Sign Up</a></li>
 
                 <!-- <li>
                     <a href="#">Itinerary</a>

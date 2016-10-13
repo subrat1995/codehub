@@ -28,6 +28,7 @@
         <link rel="stylesheet" href="{{ URL::to('css/idangerous.swiper.css') }}">
         <link rel="stylesheet" href="{{ URL::to('css/style.css') }}">
         
+        
 
     </head>
 
@@ -73,6 +74,7 @@
         <script type='text/javascript' src="{{ URL::to('js/isotope/jquery.isotope.min.js') }}") }}"></script>
         <script type='text/javascript' src="{{ URL::to('js/custom.js') }}"></script>
         <script type='text/javascript' src="{{ URL::to('js/crypt.js') }}"></script>
+        
 
     </body>
 
