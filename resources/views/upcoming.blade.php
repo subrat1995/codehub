@@ -73,7 +73,7 @@
 
             <div class="icon-text">
                 <i class="fa fa-thumb-tack"></i>
-                <p><a href="{{route('thelostsymbol')}}">Stay tuned</a></p>
+                <p><a href="{{route('thelostsymbol')}}">Event Page</a></p>
             </div>
         </div>
 
