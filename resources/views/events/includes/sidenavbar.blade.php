@@ -9,7 +9,12 @@
                 <li><a href="{{route('home')}}">Home</a></li>
                 <li><a href="{{route('thelostsymbol')}}">Event Home</a></li>
                 <li><a href="{{route('thelostdescription')}}">Description</a></li>
+                @if(!Auth::guard('tls_users')->check())
                 <li><a href="{{route('thelostsign')}}" class="active">Login/Sign Up</a></li>
+                @endif
+                @if(Auth::guard('tls_users')->check())
+                <li><a href="{{route('thelostsignout')}}" class="active">Sign Out</a></li>
+                @endif
 
                 <!-- <li>
                     <a href="#">Itinerary</a>

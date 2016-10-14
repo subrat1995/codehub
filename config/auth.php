@@ -41,6 +41,11 @@ return [
             'provider' => 'users',
         ],
 
+        'tls_users' => [
+            'driver' => 'session',
+            'provider' => 'tls_users',
+        ],
+
         'api' => [
             'driver' => 'token',
             'provider' => 'users',
@@ -70,6 +75,14 @@ return [
             'model' => App\User::class,
         ],
 
+        'tls_users' => [
+            'driver' => 'eloquent',
+            'model' => App\TlsUser::class,
+            
+        ],
+
+        
+
         // 'users' => [
         //     'driver' => 'database',
         //     'table' => 'users',
@@ -98,6 +111,13 @@ return [
     'passwords' => [
         'users' => [
             'provider' => 'users',
+            'email' => 'auth.emails.password',
+            'table' => 'password_resets',
+            'expire' => 60,
+        ],
+
+        'tls_users' => [
+            'provider' => 'tls_users',
             'email' => 'auth.emails.password',
             'table' => 'password_resets',
             'expire' => 60,

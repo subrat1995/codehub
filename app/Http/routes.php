@@ -44,11 +44,29 @@ Route::group(['middlewareGroups' => 'web'],function(){
 		return view('events.thelostsymbolabout');
 	})->name('thelostdescription');
 
-	Route::get('/event/the-lost-symbols/sign', function(){
-		return view('events.thelostsymbolsign');
-	})->name('thelostsign');
+	Route::get('/event/the-lost-symbols/sign', [
+			'uses'=>'TlsUserController@getSign', //go to app\jhttp\middleware\authenticate
+		])->name('thelostsign');
 
-	
+	Route::get('/event/the-lost-symbols/play',[
+
+		'uses'=>'TlsUserController@playDashboard',
+		'middleware' => 'auth', //go to app\jhttp\middleware\authenticate
+		'as'=>'tlsplay',
+
+		]);
+
+
+	Route::post('/event/the-lost-symbols/signup',[
+			'uses' => 'TlsUserController@postSignUp',
+		])->name('tlssignup');
+
+
+	Route::post('/event/the-lost-symbols/signin',[
+			'uses' => 'TlsUserController@postSignIn',
+		])->name('tlssignin');
+
+	Route::get('/event/the-lost-symbols/signout', 'TlsUserController@getSignout')->name('thelostsignout');
 
 
 });
